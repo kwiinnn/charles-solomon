@@ -64,7 +64,7 @@ export function Header() {
             DE
           </a>
           <label
-            for="theme-switch"
+            htmlFor="theme-switch"
             className="theme-toggle"
             aria-label="Toggle dark mode"
             style={{ cursor: "pointer", userSelect: "none" }}
