@@ -1,6 +1,6 @@
-import './Hobbies.css';
+import "./Hobbies.css";
 
-export function Hobbies () {
+export function Hobbies() {
   return (
     <>
       <section id="hobbies" className="card fade-in-up">
@@ -27,7 +27,9 @@ export function Hobbies () {
           <div id="learning" className="hobby">
             <div className="icon">📚</div>
             <div className="hobby-title">Learning</div>
-            <div className="muted">Exploring physics, biology, and CS topics</div>
+            <div className="muted">
+              Exploring physics, biology, and CS topics
+            </div>
           </div>
 
           <div id="games" className="hobby">

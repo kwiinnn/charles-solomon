@@ -1,3 +1,5 @@
+import "./Heaeder.css";
+
 export function Header() {
   return (
     <>
@@ -9,10 +11,8 @@ export function Header() {
             alt="Charles Solomon Logo"
           />
           <div>
-            <div style={{ fontWeight: 700 }}>Charles Solomon</div>
-            <div className="muted" style={{ fontSize: "12px" }}>
-              Frontend Developer · Software Engineer
-            </div>
+            <div>Charles Solomon</div>
+            <div className="muted">Frontend Developer · Software Engineer</div>
           </div>
 
           <div className="socials">
@@ -20,7 +20,6 @@ export function Header() {
               href="https://www.linkedin.com/in/charles-solomon-34aa1b2a1/"
               aria-label="LinkedIn"
               target="_blank"
-              style={{ textDecoration: "none" }}
             >
               <img src="assets/LinkedIn.svg" alt="LinkedIn" />
             </a>
@@ -28,7 +27,6 @@ export function Header() {
               href="https://github.com/kwiinnn"
               aria-label="GitHub"
               target="_blank"
-              style={{ textDecoration: "none" }}
             >
               <img src="assets/Github.svg" alt="GitHub" />
             </a>
@@ -36,7 +34,6 @@ export function Header() {
               href="https://www.facebook.com/Charles.10solomon/"
               aria-label="Facebook"
               target="_blank"
-              style={{ textDecoration: "none" }}
             >
               <img src="assets/Facebook.svg" alt="Facebook" />
             </a>
@@ -44,14 +41,13 @@ export function Header() {
               href="mailto:solomon23charles@gmail.com"
               aria-label="Email"
               target="_blank"
-              style={{ textDecoration: "none" }}
             >
               <img src="assets/Google.svg" alt="Email" />
             </a>
           </div>
         </div>
 
-        <nav className="header" style={{ color: "white" }}>
+        <nav className="header">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#hobbies">Hobbies</a>
@@ -67,7 +63,6 @@ export function Header() {
             htmlFor="theme-switch"
             className="theme-toggle"
             aria-label="Toggle dark mode"
-            style={{ cursor: "pointer", userSelect: "none" }}
           >
             <span className="theme-icon">🌙</span>
           </label>

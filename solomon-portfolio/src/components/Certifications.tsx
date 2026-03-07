@@ -1,4 +1,4 @@
-
+import 'Certifcations.css'
 
 export function Certifications () {
   return (

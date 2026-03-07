@@ -1,3 +1,5 @@
+import "./Hero.css";
+
 export function Hero() {
   return (
     <>
@@ -9,7 +11,7 @@ export function Hero() {
             complex ideas into accessible, beautiful experiences.
           </p>
 
-          <div style={{ marginTop: "18px" }} className="grid-2">
+          <div className="grid-2 intro-grid">
             <div>
               <h2>Focus</h2>
               <p className="muted">
@@ -26,26 +28,20 @@ export function Hero() {
             href="https://www.facebook.com/reel/746942924569357"
             target="_blank"
             id="featured-project"
-            style={{ marginTop: "18px; display:block" }}
             className="card"
           >
             <h2>Featured Project</h2>
-            <p className="muted" style={{ margin: "6px 0 0 0" }}>
-              ProVision PH
-            </p>
+            <p className="muted featured-project-description">ProVision PH</p>
           </a>
         </div>
 
-        <aside
-          className="card profile fade-in-up"
-          style={{ animationDelay: "0.1s" }}
-        >
+        <aside className="card profile fade-in-up">
           <img
             className="avatar"
             src="assets/gradpic-nobg.png"
             alt="Charles Solomon"
           />
-          <div style={{ fontWeight: 700 }}>Charles Solomon</div>
+          <div className="profile-name">Charles Solomon</div>
           <div className="muted">Frontend Developer · Software Engineer</div>
         </aside>
       </section>
