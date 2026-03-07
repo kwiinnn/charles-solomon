@@ -38,7 +38,7 @@ export function Hero() {
         <aside className="card profile fade-in-up">
           <img
             className="avatar"
-            src="assets/gradpic-nobg.png"
+            src="../assets/gradpic-nobg.png"
             alt="Charles Solomon"
           />
           <div className="profile-name">Charles Solomon</div>

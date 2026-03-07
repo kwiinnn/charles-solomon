@@ -7,7 +7,7 @@ export function Header() {
         <div className="brand">
           <img
             className="logo"
-            src="assets/imaisu.png"
+            src="../assets/imaisu.png"
             alt="Charles Solomon Logo"
           />
           <div>
@@ -21,28 +21,28 @@ export function Header() {
               aria-label="LinkedIn"
               target="_blank"
             >
-              <img src="assets/LinkedIn.svg" alt="LinkedIn" />
+              <img src="../assets/LinkedIn.svg" alt="LinkedIn" />
             </a>
             <a
               href="https://github.com/kwiinnn"
               aria-label="GitHub"
               target="_blank"
             >
-              <img src="assets/Github.svg" alt="GitHub" />
+              <img src="../assets/Github.svg" alt="GitHub" />
             </a>
             <a
               href="https://www.facebook.com/Charles.10solomon/"
               aria-label="Facebook"
               target="_blank"
             >
-              <img src="assets/Facebook.svg" alt="Facebook" />
+              <img src="../assets/Facebook.svg" alt="Facebook" />
             </a>
             <a
               href="mailto:solomon23charles@gmail.com"
               aria-label="Email"
               target="_blank"
             >
-              <img src="assets/Google.svg" alt="Email" />
+              <img src="../assets/Google.svg" alt="Email" />
             </a>
           </div>
         </div>
